@@ -1,0 +1,23 @@
+# Requirements for Scalable Clustering of Heterogeneous Healthcare IoT Big Data
+# Distributed Ensemble Gradient-Boosting (XGBoost on Spark/Dask)
+# Academic Project: Big Data Analytics | Guide: Ms. G. Hema Sri
+
+# Interactive Streamlit Web Application & Cloud Deployment
+streamlit>=1.28.0
+plotly>=5.15.0
+
+# Distributed & Ensemble Machine Learning
+xgboost>=1.7.0
+scikit-learn>=1.2.0
+
+# Numerical & Data Processing
+numpy>=1.22.0
+pandas>=1.5.0
+
+# Visualization & Export
+matplotlib>=3.6.0
+seaborn>=0.12.0
+pyarrow>=10.0.0
+
+# Distributed Computing on Apache Spark
+pyspark>=3.4.0

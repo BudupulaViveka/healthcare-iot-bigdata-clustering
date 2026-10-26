@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Large generated data (avoid exceeding GitHub 100MB file limit)
+data/*.parquet
+data/*.csv
+!data/.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Spark logs & metastore
+derby.log
+metastore_db/
+spark-warehouse/
+.checkpoint/
+
+# Local results caches
+results/*.parquet
